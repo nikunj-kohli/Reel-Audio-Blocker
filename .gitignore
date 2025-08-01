@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Build files
+build/
+dist/
+*.zip
+*.crx
+*.pem
+
+# Environment files
+.env
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Large files
+*.exe
+*.dmg
+*.iso
+*.tar
+*.gz
+*.rar
+*.zip
+*.7z
+
+# Specific large files
+icons/Perplexity Setup 1.1.3.exe
+
+# Ensure dist directory is not committed
+dist/

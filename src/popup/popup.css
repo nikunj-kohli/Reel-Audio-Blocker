@@ -1,0 +1,78 @@
+body {
+  width: 300px;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+#audioInput {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#blockButton {
+  padding: 8px 12px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#blockButton:hover {
+  background-color: #3367d6;
+}
+
+.blocked-list {
+  margin-top: 10px;
+}
+
+.blocked-list h3 {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  color: #555;
+}
+
+#blockedAudioList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#blockedAudioList li {
+  padding: 6px 8px;
+  background: #f5f5f5;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#blockedAudioList li button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 2px 6px;
+  cursor: pointer;
+}

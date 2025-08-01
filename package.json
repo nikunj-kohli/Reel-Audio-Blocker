@@ -1,0 +1,12 @@
+{
+  "name": "reel-audio-blocker",
+  "version": "1.0.0",
+  "description": "Block reels using specific audio tracks",
+  "scripts": {
+    "package": "node scripts/package.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10"
+  },
+  "private": true
+}
